@@ -1,9 +1,23 @@
 // problem-1: Reverse a string
-function reverseString(str){
+function reverseString(str) {
     let reversed = "";
-    for(let i = str.length -1; i >= 0; i-- ){
+    for (let i = str.length - 1; i >= 0; i--) {
         reversed += str[i];
     }
     return reversed;
 }
-console.log(reverseString("hello"));
+// console.log(reverseString("hello"));
+
+
+// problem-2: Count vowels in a string
+function countVowels(str) {
+    let Vowels = "aeiou";
+    let count = 0;
+    for(let char of str.toLowerCase()){
+        if(Vowels.includes(char)){
+            count++;
+        }
+    }
+    return count;
+}
+console.log(countVowels("programming"));
