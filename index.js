@@ -45,10 +45,10 @@ function findMaxNum(arr) {
 // console.log(findMaxNum([5, 1, 9, 3]));
 
 // problem-5: Remove duplicates from an Array
-function removeDuplicates(arr){
+function removeDuplicates(arr) {
     let unique = [];
-    for (let num of arr){
-        if(!unique.includes(num)){
+    for (let num of arr) {
+        if (!unique.includes(num)) {
             unique.push(num);
         }
     }
@@ -57,3 +57,15 @@ function removeDuplicates(arr){
 
 // console.log(removeDuplicates([1,2,2,3,4,4]));
 
+// problem-6: sum of all numbers in an array
+function sumArray(arr) {
+    let sum = 0;
+    for (let num of arr) {
+        sum += num;
+    }
+    return sum;
+}
+
+// console.log(sumArray([1, 2, 3, 4]));
+
+// problem-7: Find even numbers in an array
