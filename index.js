@@ -84,7 +84,7 @@ function sumArray(arr) {
     }
     return sum;
 }
-// console.log(sumArray([1, 2, 3, 4]));
+// console.log(sumArray([10, 20, 30, 40]));
 
 
 
@@ -114,7 +114,7 @@ function capitalizeWords(str) {
     }
     return words.join(" ")
 }
-// console.log(capitalizeWords("hello world"));
+// console.log(capitalizeWords("rimon dey"));
 
 
 
