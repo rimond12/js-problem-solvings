@@ -20,4 +20,14 @@ function countVowels(str) {
     }
     return count;
 }
-console.log(countVowels("programming"));
+// console.log(countVowels("programming"));
+
+// problem-3: Check for palindrome
+function isPalindrome(str){
+    let reversed = reverseString(str);
+    return str === reversed;
+}
+// console.log(isPalindrome("madam"));
+// console.log(isPalindrome("hello"));
+
+
