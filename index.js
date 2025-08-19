@@ -91,3 +91,14 @@ function capitalizeWords(str) {
 }
 
 // console.log(capitalizeWords("hello world"));
+
+// problem-9: Find the factorial of a number
+function factorialNum(n) {
+    let result = 1
+    for (let i = 1; i <= n; i++) {
+        result *= i
+    }
+    return result;
+}
+
+// console.log(factorialNum(5));
