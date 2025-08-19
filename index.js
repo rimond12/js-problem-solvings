@@ -29,10 +29,15 @@ function countVowels(str) {
 
 // problem-3: Check for palindrome
 function isPalindrome(str) {
-    let reversed = reverseString(str);
+    str = str.toLowerCase();
+    let reversed = "";
+    for (let i = str.length - 1; i >= 0; i--) {
+        reversed += str[i];
+    }
     return str === reversed;
 }
-// console.log(isPalindrome("madam"));
+
+// console.log(isPalindrome("Madam"));
 // console.log(isPalindrome("hello"));
 
 
