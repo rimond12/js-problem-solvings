@@ -9,6 +9,8 @@ function reverseString(str) {
 // console.log(reverseString("hello"));
 
 
+
+
 // problem-2: Count vowels in a string
 function countVowels(str) {
     let Vowels = "aeiou";
@@ -22,6 +24,9 @@ function countVowels(str) {
 }
 // console.log(countVowels("programming"));
 
+
+
+
 // problem-3: Check for palindrome
 function isPalindrome(str) {
     let reversed = reverseString(str);
@@ -29,6 +34,9 @@ function isPalindrome(str) {
 }
 // console.log(isPalindrome("madam"));
 // console.log(isPalindrome("hello"));
+
+
+
 
 
 // problem-4: Find the maximum number 
@@ -41,8 +49,11 @@ function findMaxNum(arr) {
     }
     return max;
 }
-
 // console.log(findMaxNum([5, 1, 9, 3]));
+
+
+
+
 
 // problem-5: Remove duplicates from an Array
 function removeDuplicates(arr) {
@@ -54,8 +65,11 @@ function removeDuplicates(arr) {
     }
     return unique;
 }
-
 // console.log(removeDuplicates([1,2,2,3,4,4]));
+
+
+
+
 
 // problem-6: sum of all numbers in an array
 function sumArray(arr) {
@@ -65,8 +79,11 @@ function sumArray(arr) {
     }
     return sum;
 }
-
 // console.log(sumArray([1, 2, 3, 4]));
+
+
+
+
 
 // problem-7: Find even numbers in an array
 function findEvenNumbers(arr) {
@@ -78,8 +95,11 @@ function findEvenNumbers(arr) {
     }
     return even;
 }
-
 // console.log(findEvenNumbers([1,2,3,4,5,6]));
+
+
+
+
 
 // problem-8: Capitalize first number of each word
 function capitalizeWords(str) {
@@ -89,8 +109,11 @@ function capitalizeWords(str) {
     }
     return words.join(" ")
 }
-
 // console.log(capitalizeWords("hello world"));
+
+
+
+
 
 // problem-9: Find the factorial of a number
 function factorialNum(n) {
@@ -100,8 +123,11 @@ function factorialNum(n) {
     }
     return result;
 }
-
 // console.log(factorialNum(5));
+
+
+
+
 
 // problem-10: Pingpong challange
 function pingPong() {
@@ -119,5 +145,4 @@ function pingPong() {
     }
     return result;
 }
-
 // console.log(pingPong().join(", "));
