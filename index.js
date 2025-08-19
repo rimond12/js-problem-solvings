@@ -69,3 +69,14 @@ function sumArray(arr) {
 // console.log(sumArray([1, 2, 3, 4]));
 
 // problem-7: Find even numbers in an array
+function findEvenNumbers(arr) {
+    let even = [];
+    for (let num of arr) {
+        if (num % 2 === 0) {
+            even.push(num);
+        }
+    }
+    return even;
+}
+
+// console.log(findEvenNumbers([1,2,3,4,5,6]));
