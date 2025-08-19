@@ -13,8 +13,8 @@ function reverseString(str) {
 function countVowels(str) {
     let Vowels = "aeiou";
     let count = 0;
-    for(let char of str.toLowerCase()){
-        if(Vowels.includes(char)){
+    for (let char of str.toLowerCase()) {
+        if (Vowels.includes(char)) {
             count++;
         }
     }
@@ -23,7 +23,7 @@ function countVowels(str) {
 // console.log(countVowels("programming"));
 
 // problem-3: Check for palindrome
-function isPalindrome(str){
+function isPalindrome(str) {
     let reversed = reverseString(str);
     return str === reversed;
 }
@@ -31,3 +31,15 @@ function isPalindrome(str){
 // console.log(isPalindrome("hello"));
 
 
+// problem-4: Find the maximum number 
+function findMaxNum(arr) {
+    let max = arr[0];
+    for (let num of arr) {
+        if (num > max) {
+            max = num;
+        }
+    }
+    return max;
+}
+
+// console.log(findMaxNum([5, 1, 9, 3]));
